@@ -1,0 +1,35 @@
+
+.container,
+.result{
+  padding: 20px;
+  border: 1px solid #333;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.result{
+  top: 100px;
+  border: none;
+  padding: 0px;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+ul li{
+  list-style: none;
+  padding: 12px 24px;
+  border: 1px solid #333;
+}
+ul li:not(:first-child){
+  margin-top: -1px;
+}
+button{
+  background-color: #7ce6c2;
+  border: 1px solid #3d7361;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+button:active{
+  background-color: #63ccb3;
+}
